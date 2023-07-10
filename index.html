@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Initiative Order</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Initiative Order</h1>
+        </header>
+        <section class="input-container">
+            <div class="single-input">
+                <input
+                    type="text"
+                    name="name"
+                    id="name-input"
+                    placeholder="Character name">
+                <label for="name">Character name</label>
+            </div>
+
+            <div class="single-input">
+                <input
+                    type="number"
+                    name="roll"
+                    id="roll-input"
+                    placeholder="Initiative roll">
+                <label for="roll">Initiative roll</label>
+            </div>
+
+            <button id="add-btn">Add</button>
+        </section>
+        <section class="list-container">
+            <ol id="list-el"></ol>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
